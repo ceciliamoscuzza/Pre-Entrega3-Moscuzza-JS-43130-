@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  min-height: 100vh;
+}
+
+body h2 {
+  font-size: 2rem;
+}
+
+header {
+  background-color: #442517;
+  padding: 2rem 0 1rem 0;
+  top: 0;
+}
+main {
+  padding-top: 2rem;
+  background-color: #e7a789;
+}
+h2 {
+  text-align: center;
+  font-size: 5rem;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.logo {
+  width: 100px;
+}
+.home-whisky {
+  margin: 1rem;
+  padding: 1.5rem;
+  width: 60%;
+}
+.home-parrafo {
+  margin: 2rem;
+  padding: 1.3rem;
+  font-size: 1rem;
+  text-align: justify;
+}
+.imagen img {
+  width: 40%;
+}
+#carritoTotal {
+  text-align: center;
+  padding: 1rem;
+  font-size: 18px;
+}
+li {
+  list-style: none;
+}
+.lista {
+  gap: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.lista .lista-item {
+  margin: 6px;
+  padding: 2px;
+  text-align: center;
+  border-radius: 8px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #442517;
+  width: 220px;
+  height: 250px;
+}
+
+.lista-item button,
+.boton {
+  background-color: #442517;
+  color: white;
+  border: 0;
+  padding: 3px 8px;
+}
+
+.lista-item button:hover {
+  background-color: #543527;
+}
+
+footer {
+  background-color: #442517;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer div {
+  color: #e7a789;
+  margin-top: 0.5rem;
+}
+footer div img {
+  width: 30%;
+}
